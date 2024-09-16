@@ -1,0 +1,142 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvLink": "https://drive.google.com/file/d/1kOTJ31-5PBrJndlow1Vhpt7CNM2oXtP1/view?usp=sharing",
+
+    "Banner.Pretitle": "Hello! I'm",
+    "Banner.Description": "With a dynamic <span class='underline'>4-year journey</span> in tech, I'm a passionate coder &amp; solution architect with a learning journey from focusing on <span class='underline'>foundational knowledge</span> about the <span class='underline'>art of programming</span> and software engineering to navigating the corporate realms aspiring to be a <span class='underline'>Associate Software Engineer</span>. Proficient in <span class='underline'>Python, C++, JavaScript, MongoDB, Git, &amp; Linux</span>. Currently, I'm steering my learning voyage into the realms of <span class='underline'>Node JS &amp; Flutter Development.</span> Join me on this tech odyssey, where innovation meets dedication, &amp; let's craft the future together!",
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "My tech journey started in college, dedicating <span class='underline'>3 years</span> to <span class='underline'>Open Source Contributions</span> and landing an internship at<span class='underline'>HoneyBadgersCo</span> as a flutter developer. Now, with my Bachelor's degree completed, I'm venturing into the <span class='underline'>corporate</span> market. Meanwhile, I'm expanding my expertise at this time with a focus on <span class='underline'>Node JS</span> &#38; <span class='underline'>Flutter Development</span>, showcasing my commitment to continual learning.",
+        "Beyond coding, I'm a <span class='underline'>sports enthusiast</span> and <span class='underline'>traveller</span> with aspirations to utilise my time on this planet spreading love and joy. I bring the same energy at my work organizations as well.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "HoneyBadgersCo",
+            "Organization": "HoneyBadgersCo Pvt. Ltd.",
+            "Title": "Flutter Developer Intern",
+            "Date": "April 2023 - July 2023",
+            "Location": "Pune, Maharashtra, India",
+            "LocationType": "Remote",
+            "Description": [
+              "Led a team of <span class='underline'>13 passionate interns</span> creating innovative flutter applications.",
+              "Implemented core features for said projects that eased project management for the senior devs.",
+              "Gained expertise in <span class='underline'>Flutter SDK, Google Firebase,</span> <span class='underline'>backend architectures, Postman.</span>"
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Rain",
+            "Description": [
+                "<span class='underline'>Contributed</span> to the development and maintenance of an Android application, which included bringing <span class='underline'>regional forecasting features</span> to the android application.",
+                "Provided <span class='underline'>timely updates</span> and <span class='underline'>required patches</span> for implimentation of new features such as <span class='underline'>Air Quality widgets</span>, ensuring that <span class='underline'>10k+ users</span> over the globe always get the most reliable and stable experience."
+            ],
+            "ghLink": "https://github.com/darkmoonight/Rain",
+            "demoLink": "https://play.google.com/store/apps/details?id=com.yoshi.rain&hl=en",
+            "imgs": [
+                "assets/images/projects/rain/Section 1.png",
+                "assets/images/projects/rain/Section 2.png",
+                "assets/images/projects/rain/Section 3.png"
+            ],
+            "Technologies": ["flutter", "RESTful API", "Git", "Github"]
+        },
+        {
+            "Title": "G-Books",
+            "Description": [
+                "<span class='underline'>Part of</span> a team of <span class='underline'>5 Android Enthusiasts</span> for developing an <span class='underline'>Open Source Android app</span> during 45+ days of facilitating <span class='underline'>Android Study Jams</span> on college campus under GDSC (local community).",
+                "Helped implementing the <span class='underline'>database models</span> for the app and used the <span class='underline'>Google Books API</span> to search, preview, and buy any number of e-books out of 1000K+ available over there."
+            ],
+            "ghLink": "https://github.com/gdsc-bbsbec/GBooks",
+            "imgs": [
+                "assets/images/projects/g-books/1.png",
+                "assets/images/projects/g-books/2.png",
+                "assets/images/projects/g-books/3.png",
+                "assets/images/projects/g-books/4.png"
+            ],
+            "Technologies": ["Android", "Kotlin", "Room Database", "Retrofit", "Github Actions"]
+        },
+        {
+            "Title": "Stock Price Prediction",
+            "Description": [
+                "Scripted a <span class='underline'>CLI</span> which makes an API call to <span class='underline'>Yahoo Finance</span> or <span class='underline'>local file path</span> and <span class='underline'>predicts</span> the upcoming <span class='underline'>stock performance</span> using a <span class='underline'>Recurrent Neural Network</span> algorithm called <span class='underline'>LSTM</span> at a very high success rate."
+            ],
+            "imgs": [
+                "assets/images/projects/stock-predictor/1.png",
+                "assets/images/projects/stock-predictor/2.png"
+            ],
+            "Technologies": ["Python", "Google Colab"]
+        },
+        {
+            "Title": "Windows Keylogger",
+            "Description": [
+                "Developed a <span class='underline'>keylogger/test malware</span> which generates a temporary email address and mails sensitive information like <span class='underline'>keystrokes</span> and <span class='underline'>screenshots</span> of the user's PC to an exteranl device using <span class='underline'>e-mail protocols</span>.",
+                "The software can be used to test various <span class='underline'>antivirus softwares</span> and can also be used during <span class='underline'>cybersecurity drills</span> in an organisation."
+            ],
+            "imgs": [
+                "assets/images/projects/keylogger/1.png",
+                "assets/images/projects/keylogger/2.png",
+                "assets/images/projects/keylogger/3.png",
+                "assets/images/projects/keylogger/4.png"
+            ],
+            "Technologies": ["Python", "Cybersecurity"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "Sneaker Shop",
+            "Description": [
+                "Flutter project prepared to replicate a fine online shopping experience and provide a comfort zone for the sneaker and shoes enthusiasts."
+            ],
+            "ghLink": "https://github.com/chhibber02/Sneaker_app",
+            "Technologies": ["Flutter"]
+        },
+        {
+            "Title": "To-Do App",
+            "Description": [
+                "A simple to do list app built with Flutter and Hive (local storage) made to get familiar with local storage in the flutter framework."
+            ],
+            "Technologies": ["Flutter", "Hive"]
+        },
+        {
+            "Title": "Sushi App",
+            "Description": [
+                "A minor project based on the flutter framwework built to get familiar with the Provider state management tool."
+            ],
+            "ghLink": "https://github.com/chhibber02/sushi_app",
+            "Technologies": ["Flutter", "Flutter Provider"]
+        },
+        {
+            "Title": "Android Patient Tracker",
+            "Description": [
+                "A flutter based project made during a Hackathon in a team of 3 individuals to provide data management solutions for Hospitals.",
+                "Digitally track the queue of patients along with notes management after Doctor visits for secure and smooth flow of operations."
+                
+            ],
+            "ghLink": "https://github.com/chhibber02/Android_patient_cracker",
+            "Technologies": ["Flutter"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I welcome the opportunity to engage in discussions about potential collaborations or new professional endeavors. Please feel free to reach out, and I will respond promptly upon receiving your message. Thank you for considering me, and I look forward to the possibility of connecting with you.",
+    "Contact.Btn": "Let's Connect on LinkedIn!"
+
+
+}
