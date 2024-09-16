@@ -44,7 +44,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
-          ref: builds
+          ref: gh-pages
 
       - name: Clear working directory
         run: rm -rf *
@@ -61,4 +61,4 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Build $(date +'%Y-%m-%d %H:%M')"
-          git push origin builds
+          git push origin gh-pages --force
